@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultnacyList"
+    android:background="@android:color/black">
+    <RelativeLayout
+        android:clickable="true"
+        android:id="@+id/first"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/backlogin">
+        <ImageView
+            android:src="@drawable/king"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:text="Kings Institute"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="Putalishadak-18,Kathmandu"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    //grace institute
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_below="@+id/first"
+        android:layout_margin="5dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/backlogin">
+        <ImageView
+            android:src="@drawable/gracepf"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:text="Grace Institute"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="baagbazar-09,Kathmandu"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    //global reach
+    <RelativeLayout
+        android:id="@+id/third"
+        android:layout_below="@+id/second"
+        android:layout_margin="5dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/backlogin">
+        <ImageView
+            android:src="@drawable/globalpf"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:text="GlobalReach Institute"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="NewRoad-16,Kathmandu"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    //Amazing instiute
+    <RelativeLayout
+        android:id="@+id/fourth"
+        android:layout_below="@+id/third"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/backlogin">
+        <ImageView
+            android:src="@drawable/amazingpf"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:text="Amazing Institute"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="Chipledunga-18,Pokhara"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    //Alphabeta institute
+    <RelativeLayout
+        android:id="@+id/fifth"
+        android:layout_below="@+id/fourth"
+        android:layout_margin="5dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/backlogin">
+        <ImageView
+            android:src="@drawable/alphapf"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:textSize="25dp"
+            android:textColor="@android:color/white"
+            android:text="Alphabeta Institute"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:textColor="@android:color/white"
+            android:text="Nayabazar-08,Baglung"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

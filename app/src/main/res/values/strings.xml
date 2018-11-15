@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ConsultancyGuider</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="news">News and Announcement</string>
+    <string name="title_activity_consult_detail">ConsultDetail</string>
+    <string-array name="consultname">
+        <item>Kings Consultancy</item>
+        <item>Grace Consultancy</item>
+        <item>Global Consultancy</item>
+        <item>Alplabeta Consultancy</item>
+        <item>Amazing Consultancy</item>
+    </string-array>
+</resources>

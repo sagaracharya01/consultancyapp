@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RatingList"
+    android:background="@drawable/backlogin">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+//      kings institutes.......................
+    <android.support.v7.widget.CardView
+        android:id="@+id/one"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="2dp"
+                android:id="@+id/kingimg1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/king" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/kingimg1"
+                android:text="Kings Institute"/>
+
+            <RatingBar
+                android:id="@+id/kingratebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    //.................grace institute
+    <android.support.v7.widget.CardView
+        android:id="@+id/two"
+        android:layout_below="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="2dp"
+                android:id="@+id/kingimg2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/gracepf" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/kingimg2"
+                android:text="Grace Institute"/>
+
+            <RatingBar
+                android:id="@+id/graceratebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    //............global.............
+    <android.support.v7.widget.CardView
+        android:id="@+id/three"
+        android:layout_below="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="2dp"
+                android:id="@+id/kingimg3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/globalpf" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/kingimg3"
+                android:text="Global Institute"/>
+
+            <RatingBar
+                android:id="@+id/globalratebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    //...............Amazing...........
+    <android.support.v7.widget.CardView
+        android:id="@+id/four"
+        android:layout_below="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="2dp"
+                android:id="@+id/kingimg4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/amazingpf" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/kingimg4"
+                android:text="Amazing Institute"/>
+
+            <RatingBar
+                android:id="@+id/amazingratebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    ///alphabeta................
+    <android.support.v7.widget.CardView
+        android:id="@+id/five"
+        android:layout_below="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_margin="2dp"
+                android:id="@+id/kingimg5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/alphapf" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_below="@+id/kingimg5"
+                android:text="Alphabeta Institute"/>
+
+            <RatingBar
+                android:id="@+id/alpharatebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="1" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+        <Button
+            android:id="@+id/ratesubmit"
+            android:layout_below="@+id/five"
+            android:layout_centerHorizontal="true"
+            android:layout_width="150dp"
+            android:textColor="@android:color/black"
+            android:text="SUBMIT"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#7C5547">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        app:cardCornerRadius="15dp"
+
+        >
+        <RelativeLayout
+            android:background="#6666"
+
+            android:id="@+id/detailclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <RelativeLayout
+                android:id="@+id/imgtext"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@android:color/black"
+                >
+            <ImageView
+                android:id="@+id/imgconsult"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="4dp"
+                android:padding="4dp"
+                android:background="@drawable/profileimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+
+            <TextView
+
+                android:id="@+id/txttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgconsult"
+                android:layout_marginLeft="2dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="King Insistute"
+                />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/imgtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+
+                    android:text="Subject"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+                    android:id="@+id/txtsubject"
+                    />
+
+            <TextView
+                android:padding="10dp"
+                android:text="helloworld"
+                android:id="@+id/txtdesc"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#666666"
+                android:textStyle="italic"
+                android:textSize="18dp"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtsubject"
+                />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

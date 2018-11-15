@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="7dp"
+        app:cardCornerRadius="15dp"
+        >
+        <RelativeLayout
+
+            android:background="#6666"
+            android:id="@+id/detailclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/imgconsult"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="4dp"
+                    android:padding="4dp"
+                    android:background="@drawable/backimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <TextView
+                    android:layout_toRightOf="@+id/imgconsult"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+                    android:text="Constancy Name"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+                    android:id="@+id/txtcname"
+                    />
+            <ImageView
+                android:background="@android:color/holo_red_dark"
+                android:layout_marginLeft="100dp"
+                android:layout_margin="5dp"
+                android:id="@+id/star"
+                android:layout_toRightOf="@+id/imgconsult"
+                android:layout_below="@+id/txtcname"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_menu_rate"/>
+
+
+
+            <TextView
+                android:id="@+id/rateid"
+                android:textStyle="bold"
+
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/txtcname"
+                android:layout_toRightOf="@+id/star"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

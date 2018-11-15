@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlogin">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="7dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/formid"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="FORM"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/formid"
+                android:layout_margin="3dp"
+                android:padding="4dp"
+                android:text="Name:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edtname"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtname"
+                android:layout_alignStart="@+id/edtaddress"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtname"
+                android:layout_margin="3dp"
+                android:padding="4dp"
+                android:text="Address:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edtaddress"
+
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtaddress"
+                android:layout_alignStart="@+id/edtemail"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtaddress"
+                android:layout_margin="3dp"
+                android:padding="4dp"
+                android:text="Email"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edtemail"
+
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtemail"
+                android:layout_alignStart="@+id/edtphone"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtemail"
+                android:layout_margin="3dp"
+                android:padding="4dp"
+                android:text="Phone:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edtphone"
+
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtphone"
+                android:layout_alignParentEnd="true"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtgender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtphone"
+                android:layout_margin="3dp"
+                android:padding="4dp"
+                android:text="Gender:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edtgender"
+
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtgender"
+                android:layout_alignStart="@+id/edtemail"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txteducation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtgender"
+                android:layout_margin="3dp"
+                android:padding="4dp"
+                android:text="Education:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edteducation"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txteducation"
+                android:layout_alignStart="@+id/edtemail"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/txtselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txteducation"
+                android:layout_margin="3dp"
+                android:layout_marginTop="5dp"
+                android:padding="4dp"
+                android:text="Consultancy:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/edtconsult"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtselect"
+                android:layout_alignStart="@+id/edtemail"
+                android:inputType="textPersonName"
+                android:textSize="18dp"></TextView>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

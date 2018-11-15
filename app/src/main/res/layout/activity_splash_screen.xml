@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@drawable/splash"
+
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/logo"/>
+        <TextView
+            android:padding="0dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="240dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONSULTANCY"
+            android:textColor="@android:color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:id="@+id/consultancy"/>
+        <TextView
+
+
+            android:layout_marginLeft="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUIDER"
+            android:textSize="40dp"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/consultancy"
+            android:textStyle="bold"
+            android:id="@+id/guider"/>
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="64dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guide  you  to  bright  future"
+            android:textColor="#E5E4E2"
+            android:layout_below="@+id/guider"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

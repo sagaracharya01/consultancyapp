@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsField">
+    <RelativeLayout
+        android:background="#6666"
+        android:id="@+id/top"
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+    <EditText
+        android:layout_margin="3dp"
+        android:background="@android:color/white"
+
+        android:id="@+id/notify"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:hint="Post your important notification"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        />
+        <Button
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@android:color/white"
+            android:id="@+id/postrecycle"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Post"
+            android:layout_toRightOf="@+id/notify"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+           >
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</RelativeLayout>

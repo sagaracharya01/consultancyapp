@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlogin"
+    tools:context=".FormKey">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/darker_gray"
+        android:layout_height="400dp">
+        <TextView
+            android:id="@+id/confirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmation "
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            />
+        <RelativeLayout
+            android:layout_below="@+id/confirmation"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            >
+            <EditText
+                android:layout_centerHorizontal="true"
+                android:id="@+id/consultname"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:background="#11000000"
+                android:ems="10"
+                android:textColorHint="@android:color/black"
+                android:hint="Consultancy Name"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/regphotoid"
+                android:layout_marginTop="35dp"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_action_regname"
+                />
+            <EditText
+                android:layout_centerHorizontal="true"
+                android:id="@+id/key"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:background="#11000000"
+                android:ems="10"
+                android:textColorHint="@android:color/black"
+                android:hint=" Key number"
+                android:inputType="textPassword"
+                android:layout_below="@+id/consultname"
+                android:layout_marginTop="35dp"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_action_pass"
+                />
+            <Button
+                android:id="@+id/postnews"
+                android:layout_marginTop="30dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:text="Enter"
+                android:layout_below="@+id/key"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="13dp"
+                android:layout_below="@id/postnews"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="Note: Insert the Key number you provided"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
